@@ -1,0 +1,23 @@
+{
+  "name": "project-js-01",
+  "version": "1.0.0",
+  "description": "Meu primeiro projeto Javascript",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efojunior25/project-JS-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efojunior25/project-JS-01/issues"
+  },
+  "homepage": "https://github.com/efojunior25/project-JS-01#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
