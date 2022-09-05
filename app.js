@@ -5,8 +5,7 @@ const readline = require("readline-sync");
 const entradaInicial = readline.question("Deseja buscar um livro? Sim ou Nao");
 
 if (entradaInicial.toLocaleUpperCase() === "SIM"){ 
-    const categorias = livros.filter(categorias)
-    console.log(`Estas são as categorias disponíveis: ${categorias}`);
+    console.log("Estas são as categorias disponíveis:");
     console.log("Produtividade e estilo de Vida", "/História Brasileira", "/Américas", "/Tecnologia", "/Estilo de Vida",);
 
     const entradaCategoria = readline.question("Qual Categoria você esolhe?");
